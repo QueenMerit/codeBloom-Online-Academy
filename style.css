@@ -154,7 +154,7 @@ nav button {
 
 /** change navigation style on scroll using javascript **/
 .window-scroll{
-  background: var(--color-primary);
+  background: var(--color-bg1);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
@@ -521,7 +521,7 @@ footer ul li a:hover {
   }
 
   .nav__menu li a, .nav__menu li #odd {
-    background: var(--color-primary);
+    background: var(--color-bg1);
     box-shadow: -4rem 6rem 10rem rgba(0, 0, 0, 0.6);
     width: 100%;
     height: 100%;
