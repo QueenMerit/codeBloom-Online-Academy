@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - codeBloom Online Academy</title>
+  <!-- css -->
+  <link rel="stylesheet" href="style.css">
+  <!-- icon -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- font(poppins) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!--swiperjs-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+  <nav>
+    <div class="container nav__container">
+      <a href="index.html"><img src="./Images/codebloom-logo-fff.png" alt="codebloom-logo" class="logo"></a>
+      <ul class="nav__menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="affiliate.html">Affiliate</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="certificate.html" id="odd">Certificate Verification</a></li>
+      </ul>
+      <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+      <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+    </div>
+  </nav>
+
+  <header>
+    <div class="container header__container">
+      <div class="header__left">
+        <h1>Code. Own. Bloom.</h1>
+        <p>Take your skills to the next level and turn your passion for tech into something real. Whether you're just starting or looking to refine your expertise, codeBloom empowers you to grow, create, and thrive in the ever-evolving world of tech.</p>
+        <a href="about.html" class="btn btn-primary">Get Started</a>
+      </div>
+
+      <div class="header__right">
+        <div class="header__right-image">
+          <img src="./Images/coding-girl.png" alt="">
+        </div> 
+      </div>
+    </div>
+  </header>
+  
+  <section class="why-learn">
+    <div class="container why-learn__container">
+      <div class="why-learn__left">
+        <h1>Why Learn with Us?</h1>
+        <p>At codeBloom, we offer a structured, engaging, and flexible learning experience tailored to help you thrive as a developer. Here’s what makes our program stand out:</p>
+        <a href="about.html" class="btn">Join codeBloom Now</a>
+      </div>
+
+      <div class="why-learn__right">
+        <article class="why">
+          <span class="why__icon"><i class="uil uil-video"></i></span>
+          <h5>Structured Video Lessons</h5>
+          <p>Step-by-step video lessons designed for clarity and mastery.</p>
+        </article>
+
+        <article class="why">
+          <span class="why__icon"><i class="uil uil-key-skeleton"></i></span>
+          <h5>Exclusive Access</h5>
+          <p>Join WhatsApp & Telegram groups for real-time support.</p>
+        </article>
+
+        <article class="why">
+          <span class="why__icon"><i class="uil uil-wrench"></i></span>
+          <h5>Hands-On Practice</h5>
+          <p>Work on real projects and collaborate with peers.</p>
+        </article>
+
+        <article class="why">
+          <span class="why__icon"><i class="uil uil-mobile-android"></i><i class="uil uil-desktop"></i></span>
+          <h5>Device Flexibility</h5>
+          <p>Code on a laptop or mobile—no barriers to learning.</p>
+        </article>
+
+        <article class="why">
+          <span class="why__icon"><i class="uil uil-trophy"></i></span>
+          <h5>Certification</h5>
+          <p>Earn a certificate of completion to validate your skills.</p>
+        </article>
+
+        <article class="why">
+          <span class="why__icon"><i class="uil uil-chat-bubble-user"></i></span>
+          <h5>Gobal Community</h5>
+          <p>Connect with a thriving network of learners and mentors.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="courses">
+    <h2>Available Courses</h2>
+    <div class="container courses__container">
+      <article class="course">
+        <div class="course__image">
+          <img src="./Images/HTML.png">
+        </div>
+        <div class="course__info">
+          <h4>HyperText Markup Language (HTML)</h4>
+          <p>Learn the building blocks of the web with HTML. This course will guide you through structuring webpages, using semantic elements, and creating well-organized content that forms the foundation of every website.</p>
+          <a href="contact.html" class="btn btn-primary">Learn More</a>
+        </div>
+      </article>
+      <article class="course">
+        <div class="course__image">
+          <img src="./Images/CSS.png">
+        </div>
+        <div class="course__info">
+          <h4>Cascading Style Sheets (CSS)</h4>
+          <p>Bring your designs to life with CSS! Master styling techniques, layouts, and animations to create visually stunning and responsive webpages. Learn to control colors, positioning for a smooth user experience.</p>
+          <a href="contact.html" class="btn btn-primary">Learn More</a>
+        </div>
+      </article>
+      <article class="course">
+        <div class="course__image">
+          <img src="./Images/JS.png">
+        </div>
+        <div class="course__info">
+          <h4>JavaScript (JS)</h4>
+          <p>Make your websites interactive and dynamic with JavaScript. This course covers the essentials of programming, DOM manipulation. You'll gain hands-on experience creating real-world applications that enhance functionality and engagement.</p>
+          <a href="contact.html" class="btn btn-primary">Learn More</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="faqs">
+    <h2>Frequently Asked Questions</h2>
+    <div class="container faqs__container">
+      <article class="faq">
+        <div class="faq__icon"><i class="uil uil-plus"></i></div>
+        <div class="question__answer">
+          <h4>How can I determine if coding is the right path for me?</h4>
+          <p>If you enjoy problem-solving, creativity, and technology, coding might be a great fit for you. Our structured learning approach allows you to explore and develop your skills at your own pace.</p>
+        </div>
+      </article>
+      <article class="faq">
+        <div class="faq__icon"><i class="uil uil-plus"></i></div>
+        <div class="question__answer">
+          <h4>Can I learn to code effectively using only my phone?</h4>
+          <p>Yes! Our courses are designed to be accessible on both mobile devices and laptops, ensuring that you can learn and practice coding even if you don’t own a computer.</p>
+        </div>
+      </article>
+      <article class="faq">
+        <div class="faq__icon"><i class="uil uil-plus"></i></div>
+        <div class="question__answer">
+          <h4>Will I receive a certificate upon completing the course?</h4>
+          <p>Absolutely! Upon successfully completing the course, you will receive a certificate of completion, validating your skills and knowledge in web development.</p>
+        </div>
+      </article>
+      <article class="faq">
+        <div class="faq__icon"><i class="uil uil-plus"></i></div>
+        <div class="question__answer">
+          <h4>Will I be able to build my own website after the course?</h4>
+          <p>es! By the end of the course, you will have the knowledge and hands-on experience to build and launch your own fully functional website.</p>
+        </div>
+      </article>
+      <article class="faq">
+        <div class="faq__icon"><i class="uil uil-plus"></i></div>
+        <div class="question__answer">
+          <h4>Can I monetize my coding skills after the course?</h4>
+          <p>Yes! While our focus is on training, coding skills can be monetized in various ways, such as freelancing, building personal projects, or working as a developer.</p>
+        </div>
+      </article>
+      <article class="faq">
+        <div class="faq__icon"><i class="uil uil-plus"></i></div>
+        <div class="question__answer">
+          <h4>Is the payment a one-time fee or can I pay in installments?</h4>
+          <p>The course requires a one-time payment with no installment options. This ensures you get full access to all course materials and resources immediately upon enrollment.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="container testimonials__container mySwiper">
+    <h2>Student's Testimonials</h2>
+    <div class="swiper-wrapper">
+      <article class="testimonial swiper-slide">
+        <div class="avatar">
+          <img src="./Images/T- Ridwan Jimoh.jpg">
+        </div>
+        <div class="testimonial__info">
+          <h5>Ridwan Jimoh</h5>
+          <small>Alumnus</small>
+        </div>
+        <div class="testimonial__body">
+          <p>Your assessment is truly outstanding - thorough, precise, and meticulously crafted. Your patience in correcting mistakes is unparalleled. Your knowledge base is impressively comprehensive, meticulously debugged, and shining with excellence!</p>
+        </div>
+      </article>
+      <article class="testimonial swiper-slide">
+        <div class="avatar">
+          <img src="./Images/T- Aaisha Sadiq.jpg">
+        </div>
+        <div class="testimonial__info">
+          <h5>Aaisha Sadiq</h5>
+          <small>Student</small>
+        </div>
+        <div class="testimonial__body">
+          <p>
+            Queen Merit Class is a symbol of excellence, dedication, and impact! The journey so far has been inspiring, and the commitment to quality education is unmatched. If you're looking for the best, Queen Merit Class is the way to go! 🌟🌟🌟🌟🌟 👏👏👏👏👏</p>
+        </div>
+      </article>
+      <article class="testimonial swiper-slide">
+        <div class="avatar">
+          <img src="./Images/T- Afolabi Wasiu Olushola.jpg">
+        </div>
+        <div class="testimonial__info">
+          <h5>Afolabi Wasiu Olushola</h5>
+          <small>Alumnus</small>
+        </div>
+        <div class="testimonial__body">
+          <p>Having the opportunity to learn at codeBloom is an incredible and highly positive experience. Queen Merit always goes the extra mile to ensure that we understand and get it right. May Allah, in His infinite mercy, reward you abundantly, Ameen. ⭐⭐⭐⭐⭐</p>
+        </div>
+      </article>
+      <article class="testimonial swiper-slide">
+        <div class="avatar">
+          <img src="./Images/T- Mustapha Olamilekan Taofeek.jpg">
+        </div>
+        <div class="testimonial__info">
+          <h5>Mustapha Olamilekan Taofeek</h5>
+          <small>Student</small>
+        </div>
+        <div class="testimonial__body">
+          <p>At codeBloom, I found Queen Merit's guidance to be truly inspiring, engaging, and commendable. Her teaching methods were top-notch, making the learning experience exceptional. Being part of her class was a dream come true! ⭐⭐⭐⭐⭐</p>
+        </div>
+      </article>
+      <article class="testimonial swiper-slide">
+        <div class="avatar">
+          <img src="./Images/T- Aminat Akinpelu.jpg">
+        </div>
+        <div class="testimonial__info">
+          <h5>Aminat Akinpelu</h5>
+          <small>Alumna</small>
+        </div>
+        <div class="testimonial__body">
+          <p>codeBloom simplified the learning process, making it accessible and enjoyable for everyone. Queen Merit's patience, coupled with the calm and supportive nature of her co-admin, creates an outstanding learning environment. 🌟🌟🌟🌟🌟 👏👏👏</p>
+        </div>
+      </article>
+      <article class="testimonial swiper-slide">
+        <div class="avatar">
+          <img src="./Images/T- Ibikunle Ismail Bolaji.jpg">
+        </div>
+        <div class="testimonial__info">
+          <h5>Ibikunle Ismail Bolaji</h5>
+          <small>Student</small>
+        </div>
+        <div class="testimonial__body">
+          <p>
+            Queen Merit is a great coach and a wonderful teacher who knows how to present complex task in a simple and informative ways. Learning from her institute (codeBloom) was fun and interesting. I will always recommend you to others. I rate codeBloom 💯.
+          </p>
+        </div>
+      </article>
+      <article class="testimonial swiper-slide">
+        <div class="avatar">
+          <img src="./Images/T- Fateemah Abdulquadri Kutashi.jpg">
+        </div>
+        <div class="testimonial__info">
+          <h5>Fateemah Abdulquadri Kutashi</h5>
+          <small>Alumna</small>
+        </div>
+        <div class="testimonial__body">
+          <p>Excellent Course & Instructor! This course is perfect for a beginner! Concepts clearly explained, making complex topics easy to understand. Lessons well-structured, with hands-on exercises that reinforced learning. Highly recommended!⭐⭐⭐⭐⭐</p>
+        </div>
+      </article>
+      <article class="testimonial swiper-slide">
+        <div class="avatar">
+          <img src="./Images/T- Abdulhameed Quadri.jpg">
+        </div>
+        <div class="testimonial__info">
+          <h5>Abdulhameed Quadri</h5>
+          <small>Student</small>
+        </div>
+        <div class="testimonial__body">
+          <p>
+            QueenMerit01 has a gift for breaking down complex concepts into bite-sized pieces, making it easy to understand and apply. Her patience, enthusiasm, and expertise are contagious, and she has a way of making you feel confident in your abilities.
+          </p>
+        </div>
+      </article>
+      <article class="testimonial swiper-slide">
+        <div class="avatar">
+          <img src="./Images/T- Basirat Aina Adedoyin.jpg">
+        </div>
+        <div class="testimonial__info">
+          <h5>Basirat Aina Adedoyin</h5>
+          <small>Alumna</small>
+        </div>
+        <div class="testimonial__body">
+          <p>I was privileged to be one of the students at codeBloom Online Academy, and the experience was amazing. Without any prior knowledge of coding, I found the class to be fully practical, with maximum attention from the instructor and her team members.</p>
+        </div>
+      </article>
+    </div>
+    <div class="swiper-pagination"></div>
+  </section>
+
+  <footer>
+    <div class="container footer__container">
+
+      <div class="footer__1">
+        <a href="index.html" class="footer__logo"><h4>@codeBloom</h4></a>
+        <p>We believe that everyone can code with the right guidance, resources, and community.</p>
+      </div>
+
+      <div class="footer__2">
+        <h4>Permalinks</h4>
+        <ul class="permalinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="affiliate.html">Affiliate</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="certificate.html">Certificate Verification</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__3">
+        <h4>Policies & Agreements</h4>
+        <div class="primacy">
+          <li><a href="./Primacy/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="./Primacy/terms-and-conditions.html">Terms and Conditions</a></li>
+          <li><a href="./Primacy/refund-policy.html">Refund Policy</a></li>
+        </div>
+      </div>
+
+      <div class="footer__4">
+        <h4>Contact Us</h4>
+        <div>
+          <p>+234 813 934 9515</p>
+          <p>queenmerit01@gmail.com</p>
+        </div>
+        <ul class="footer__socials">
+          <li><a href="https://m.facebook.com/100596432853989"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="https://www.instagram.com/queen_merit_01?igsh=MzdwcDd0aGQxNG45"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="https://x.com/QueenMerit01?t=Yy1EUbUlSo82douA2fNdtQ&s=09"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="https://www.tiktok.com/@queen_merit01?_t=ZM-8vAvLTbh2SU&_r=1"><i class="fab fa-tiktok"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__copyright">
+      <small>Copyright &copy; codeBloom Online Academy</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./scripts.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+
+      //when window width is >= 624px
+      breakpoints: {
+        624: {
+          slidesPerView: 2,
+        }
+      }
+    });
+  </script>
+</body>
+</html>
