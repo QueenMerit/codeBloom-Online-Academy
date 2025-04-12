@@ -622,6 +622,11 @@ header {
 
 
 /************ why learn ************/
+.why-learn__left {
+  text-align: center;
+  margin: auto;
+}
+
 .why-learn__right {
   grid-template-columns: 1fr 1fr;
   gap: 0.7rem;
