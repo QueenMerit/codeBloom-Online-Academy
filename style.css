@@ -890,8 +890,13 @@ header {
     margin: auto;
   }
 
-  .achievements__cards, .about__stats, .about__team-container {
+  .about__team-container {
     grid-template-columns: 1fr 1fr;
+    gap: 0.7rem;
+  }
+
+  .achievements__cards, .about__stats {
+    grid-template-columns: 1fr;
     gap: 0.7rem;
   }
 
